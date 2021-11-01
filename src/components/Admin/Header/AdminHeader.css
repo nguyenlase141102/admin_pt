@@ -1,0 +1,62 @@
+.topnav_admin {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+  margin-bottom: 20px;
+}
+
+.topnav__right {
+  display: flex;
+  align-items: center;
+}
+.topnav__right-item ~ .topnav__right-item {
+  margin-left: 30px;
+}
+
+.icon_topNav {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.topNav_right {
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.inputSearch {
+  padding: 5px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.admin_logo {
+  display: flex;
+  align-items: center;
+}
+
+.inputSearch:focus {
+  border: none;
+}
+
+.iconSearch {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.topNav_icon {
+  margin: 0px 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.topNav_left {
+  font-size: 20px;
+  color: #66615b;
+}

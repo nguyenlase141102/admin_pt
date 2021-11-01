@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.btn_content {
+  color: #fff;
+  text-align: center;
+  padding: 10px 45px;
+  font-size: 16px;
+  background-color: rgb(52, 195, 143);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  margin-right: 110px;
+}
+
+.list {
+  color: #fff;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: rgb(52, 195, 143);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.btn_content:hover {
+  background-color: rgb(52, 195, 143, 0.8);
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableItem {
+  font-size: 20px;
+  margin-left: 120px;
+}
+
+.btn_pagination {
+  display: flex;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_list {
+  color: #fff;
+  text-align: center;
+  padding: 10px 45px;
+  font-size: 16px;
+  background-color: rgb(52, 195, 143);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 10px;
+  position: relative;
+}
+.btn_list:hover {
+  background-color: rgb(52, 195, 143, 0.8);
+}
+
+.numberPage {
+  font-size: 14px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  background-color: rgb(52, 195, 143);
+  margin-left: 115px;
+}
+
+.iconList {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+  color: green;
+}
+
+.iconListDelete {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+  color: red;
+}
+
+.table_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.table_table {
+  border-collapse: collapse;
+  margin: 10px 10px;
+  font-size: 0.8em;
+  width: 1275px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table_table thead tr {
+  color: black;
+  text-align: left;
+}
+
+.table_table th,
+.table_table td {
+  padding: 12px 15px;
+}
+
+.table_table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table_table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table_table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.table_table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.numberPage {
+}
+
+.statusTable {
+  padding: 2px;
+  color: #009879;
+}
