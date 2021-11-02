@@ -227,7 +227,7 @@ const AdminBody = () => {
                 <th scope="col">Số điện thoại</th>
                 <th scope="col">Trạng thái</th>
                 <th scope="col">Cập nhật</th>
-                <th scope="col">Xóa</th>
+                <th scope="col">Cấm</th>
               </tr>
             ) : (
               <tr>
@@ -239,7 +239,7 @@ const AdminBody = () => {
                 <th scope="col">Số điện thoại</th>
                 <th scope="col">Trạng thái</th>
                 <th scope="col">Cập nhật</th>
-                <th scope="col">Xóa</th>
+                <th scope="col">Cấm</th>
               </tr>
             )}
           </thead>
